@@ -16,9 +16,11 @@ the updated app again with our cached values, if not, we close our app.
     Objects:
 
         Item:
-            name : str
-            price : float
-            stock : int (default=10)
+            __init__:
+                instance attributes:
+                    name : str
+                    price : float
+                    stock : int (default=10)
 
 
          VendingMachine:
