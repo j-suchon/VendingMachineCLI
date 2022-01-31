@@ -1,4 +1,4 @@
-#Vending Machine
+# Vending Machine
 
 A standard vending machine CLI application. The app displays a menu of items
 from which the user picks one associated code (key). 
@@ -11,7 +11,7 @@ is dispensed, it's inventory updated, and any change is returned.
 Finally, we ask the user if they'd like to continue with another purchase, if so, we re-run
 the updated app again with our cached values, if not, we close our app.
 
-###Outline:
+### Outline:
 
     Objects:
 
